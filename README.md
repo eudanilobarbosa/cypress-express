@@ -6,8 +6,6 @@ Repositório do projeto para o aplicativo web de demonstração, o gerenciador d
 - Node.js
 - Cypress
 - Javascript
-- Cypress Dashboard
-- Results
 
 ## 🤖 Rodando
 
