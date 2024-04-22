@@ -18,6 +18,9 @@ describe('tarefas', () => {
             .type('Ler um livro de Node.js')
 
         cy.contains('button', 'Create').click()
+
+        cy.contains('main div p', 'Ler um livro de Node.js')
+            .should('be.visible')
     })
 
 })
