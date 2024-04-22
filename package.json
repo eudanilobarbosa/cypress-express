@@ -13,6 +13,7 @@
   "author": "Danilo S. Barbosa",
   "license": "ISC",
   "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
     "cypress": "^12.2.0"
   }
 }
