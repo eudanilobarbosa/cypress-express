@@ -7,6 +7,10 @@ describe('tarefas', () => {
 
         cy.get('input[placeholder="Add a new Task"]')
             .type('Ler um livro de node.js')
+
+        // //button[contains(text(),"Create")]
+
+        cy.contains('button', 'Create').click()
     })
 
 })
