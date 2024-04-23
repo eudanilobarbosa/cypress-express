@@ -18,7 +18,7 @@ describe('tarefas', () => {
             cy.removeTaskByName(taskName)
             cy.createTask(taskName)
 
-            cy.contains('main div p', taskName)
+            cy.contains('main div p', 'Batatinha quando nasce')
                 .should('be.visible')
         })
 
