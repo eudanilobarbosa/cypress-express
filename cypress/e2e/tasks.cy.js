@@ -44,7 +44,7 @@ describe('tarefas', () => {
             cy.removeTaskByName(task.name)
             cy.postTask(task)
 
-            cy.visit('http://localhost:3000')
+            cy.visit('/')
 
             cy.contains('p', task.name)
                 .parent()
@@ -65,7 +65,7 @@ describe('tarefas', () => {
             cy.removeTaskByName(task.name)
             cy.postTask(task)
 
-            cy.visit('http://localhost:3000')
+            cy.visit('/')
 
             cy.contains('p', task.name)
                 .parent()
