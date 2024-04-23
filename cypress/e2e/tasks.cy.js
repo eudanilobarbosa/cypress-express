@@ -16,7 +16,7 @@ describe('tarefas', () => {
     it('não deve permitir tarefa duplicada', () => {
 
         const task = {
-            name: 'Estuda Javascript',
+            name: 'Estudar Javascript',
             is_done: false
         }
 
@@ -27,6 +27,11 @@ describe('tarefas', () => {
         cy.get('.swal2-html-container')
             .should('be.visible')
             .should('have.text', 'Task already exists!')
+    })
+
+    it('campo obrigatório', () => {
+        cy.createTask()
+        cy.isRequired('This is a required field')
     })
 
 })
