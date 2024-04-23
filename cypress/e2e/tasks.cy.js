@@ -34,4 +34,25 @@ describe('tarefas', () => {
             cy.isRequired('This is a required field')
         })
     })
+    context('atualização', () => {
+        it.only('deve concluir uma tarefa', () => {
+            const task = {
+                name: 'Pagar contas de consumo',
+                is_done: false
+            }
+
+            cy.removeTaskByName(task.name)
+            cy.postTask(task)
+
+            cy.visit('http://localhost:3000')
+
+            cy.contains('p', task.name)
+                .parent()
+                .find('button[class*=ItemToggle]')
+                .click()
+
+            cy.contains('p', task.name)
+                .should('have.css', 'text-decoration-line', 'line-through')
+        })
+    })
 })
