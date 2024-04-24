@@ -118,38 +118,45 @@ npm run db:init
 npm i
 ```
 
-## Testes
+### Testes
 
-Este projeto utiliza o [Cypress.io](https://cypress.io) para os testes _end-to-end_, onde você pode executá-los tanto em modo interativo, como em modo _headless_.
+Você pode executá-los tanto em modo interativo, como em modo _headless_.
 
-1. Instalar as dependências do Cypress que estão na pasta raiz **/**, execute o comando `npm i`
+1. Instalar as dependências do Cypress que estão na pasta raiz **/**, execute o comando
+```
+npm i
+```
 
+<!-- UNDER CONSTRUCTION 
 Além disso, as execuções dos testes são gravadas no servidor local [Allure Report](https://allurereport.org/).
+-->
 
-### Modo _headless_
-
-Execute `npx cypress run` para rodar todos os testes em modo _headless_.
+2. Para rodar todos os testes em **modo _headless_**, execute o comando
+```
+npx cypress run
+```
 
 > [!TIP]
-> Execute os testes através do Lauchpad, modo interativo do Cypress, execute o comando `npx cypress open`
+> Execute os testes através do Lauchpad, modo interativo do Cypress, com o comando `npx cypress open`
 
 # Funcionalidades Testadas
+[![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
 
-## home
+#### home
 
 * [x] webapp deve estar online
 
-## tarefas
-### cadastro
+#### tarefas > cadastro
 
 * [x] deve cadastrar uma nova tarefa
 * [x] não deve permitir tarefa duplicada
 * [x] campo obrigatório
 
-### atualização
+#### tarefas > atualização
 
 * [x] deve concluir uma tarefa
 
-### exclusão
+#### tarefas > exclusão
 
 * [x] deve remover uma tarefa
+
