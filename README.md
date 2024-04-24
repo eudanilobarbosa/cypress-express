@@ -56,6 +56,51 @@ npm i
 npm run dev
 ```
 
+## Métodos - Requisições para a Api
+
+### GET /Task list
+```
+curl --request GET \
+  --url http://localhost:3333/tasks
+```
+
+### POST /New task
+```
+curl --request POST \
+  --url http://localhost:3333/tasks \
+  --header 'Content-Type: application/json' \
+  --data '{
+	"name": "Comprar ketchup",
+	"is_done": false
+}'
+```
+
+### PUT /Update task
+```
+curl --request PUT \
+  --url http://localhost:3333/tasks/8b161cff-5485-4a06-aaa3-5cde44d34es \
+  --header 'Content-Type: application/json' \
+  --data '{
+	"is_done": true
+}'
+```
+
+### DELETE /Remove task by name
+```
+curl --request DELETE \
+  --url http://localhost:3333/helper/tasks \
+  --header 'Content-Type: application/json' \
+  --data '{
+	"name": "Ler um livro de Node.js"
+}'
+```
+
+### DELETE /Remove task
+```
+curl --request DELETE \
+  --url http://localhost:3333/tasks/2aa7dc4e-7148-4ed7-936e-fc9167a4deb8
+  ```
+
 ## Como executar
 
 1. Instalar as dependências da web app que estão na pasta **/apps/markL/**, pasta **api** - Api do gerenciador de tarefas, execute o comando
