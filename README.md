@@ -58,13 +58,19 @@ npm run dev
 
 ## Métodos - Requisições para a Api
 
-### GET /Task list
+<details>
+<summary> :purple_circle: GET /Task list </summary>
+	
 ```
 curl --request GET \
   --url http://localhost:3333/tasks
 ```
 
-### POST /New task
+</details>
+
+<details>
+<summary> :green_circle: POST /New task </summary>
+
 ```
 curl --request POST \
   --url http://localhost:3333/tasks \
@@ -75,7 +81,11 @@ curl --request POST \
 }'
 ```
 
-### PUT /Update task
+</details>
+
+<details>
+<summary> :yellow_circle: PUT /Update task </summary>
+
 ```
 curl --request PUT \
   --url http://localhost:3333/tasks/8b161cff-5485-4a06-aaa3-5cde44d34es \
@@ -85,7 +95,11 @@ curl --request PUT \
 }'
 ```
 
-### DELETE /Remove task by name
+</details>
+
+<details>
+<summary> :red_circle: DELETE /Remove task by name </summary>
+
 ```
 curl --request DELETE \
   --url http://localhost:3333/helper/tasks \
@@ -95,11 +109,17 @@ curl --request DELETE \
 }'
 ```
 
-### DELETE /Remove task
+</details>
+
+<details>
+<summary> :red_circle: DELETE /Remove task </summary>
+
 ```
 curl --request DELETE \
   --url http://localhost:3333/tasks/2aa7dc4e-7148-4ed7-936e-fc9167a4deb8
-  ```
+```
+  
+ </details>
 
 ## Como executar
 
