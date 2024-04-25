@@ -14,8 +14,3 @@ cypress/videos/*
 apps/markL/
 apps/markL/**/*.sqlite-shm
 apps/markL/**/*.sqlite-wal
-
-## Allure Reports
-allure-results/
-# Report Server
-report-server/
