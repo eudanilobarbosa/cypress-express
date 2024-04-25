@@ -147,10 +147,6 @@ Você pode executá-los tanto em modo interativo, como em modo _headless_.
 npm i
 ```
 
-<!-- UNDER CONSTRUCTION 
-Além disso, as execuções dos testes são gravadas no servidor local [Allure Report](https://allurereport.org/).
--->
-
 2. Para rodar todos os testes em **modo _headless_**, execute o comando
 ```
 npx cypress run
