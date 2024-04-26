@@ -150,7 +150,7 @@ npm i
 npx cypress run --env allure=true
 ```
 
-O relatório de execução dos testes, em **modo _headless_**, pode ser visualizado com [Allure Report](https://github.com/mmisty/cypress-allure-adapter#readme), execute o comando
+3. O relatório de execução dos testes pode ser visualizado com [Allure Report](https://www.npmjs.com/package/@mmisty/cypress-allure-adapter), execute o comando
 ```
 npx allure serve
 ```
