@@ -13,6 +13,8 @@
   "author": "Danilo S. Barbosa",
   "license": "ISC",
   "devDependencies": {
+    "@mmisty/cypress-allure-adapter": "^0.16.4",
+    "allure-commandline": "^2.29.0",
     "cypress": "^12.2.0"
   }
 }

@@ -149,11 +149,19 @@ npm i
 
 2. Para rodar todos os testes em **modo _headless_**, execute o comando
 ```
-npx cypress run
+npx cypress run --env allure=true
 ```
 
+O relatório de execução dos testes, em **modo _headless_**, pode ser visualizado com [Allure Report](https://github.com/mmisty/cypress-allure-adapter#readme), execute o comando
+```
+npx allure serve
+```
+
+> [!IMPORTANT] 
+> É necessário o Java 8 para executar o binário do Allure Reports.
+
 > [!TIP]
-> Execute os testes através do Lauchpad, modo interativo do Cypress, com o comando `npx cypress open`
+> Execute os testes através do Lauchpad, modo interativo do Cypress, com o comando `npx cypress open`.
 
 # Funcionalidades Testadas
 [![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
