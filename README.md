@@ -29,17 +29,17 @@ Você vai precisar dos seguintes sistemas instalados em seu computador:
 
 ### Clonar o repositório
 
-1. Instalar as dependências da web app que estão na pasta **/apps/markL/**, pasta **api** - Api do gerenciador de tarefas, execute o comando
+1. Instalar as dependências da web app que estão na pasta **/apps/markL/**, pasta **api** - API do gerenciador de tarefas, execute o comando
 ```
 npm i
 ```
 
-2. Para inicializar e criar o banco de dados SQLite da Api, execute o comando
+2. Para inicializar e criar o banco de dados SQLite da API, execute o comando
 ```
 npm run db:init
 ```
 
-3. Colocar Api em execução
+3. Colocar API em execução
 ```
 npm run dev
 ```
@@ -54,7 +54,7 @@ npm i
 npm run dev
 ```
 
-## Métodos - Requisições para a Api
+## Métodos - Requisições para a API
 
 <details>
 <summary> :purple_circle: GET /Task list </summary>
@@ -121,12 +121,12 @@ curl --request DELETE \
 
 ## Como executar
 
-1. Instalar as dependências da web app que estão na pasta **/apps/markL/**, pasta **api** - Api do gerenciador de tarefas, execute o comando
+1. Instalar as dependências da web app que estão na pasta **/apps/markL/**, pasta **api** - API do gerenciador de tarefas, execute o comando
 ```
 npm i
 ```
 
-2. Para inicializar e criar o banco de dados SQLite da Api, execute o comando
+2. Para inicializar e criar o banco de dados SQLite da API, execute o comando
 ```
 npm run db:init
 ```
