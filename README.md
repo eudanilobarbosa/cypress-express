@@ -157,7 +157,7 @@ O relatório de execução dos testes, em **modo _headless_**, pode ser visualiz
 npx allure serve
 ```
 
-> [!IMPORTANT] 
+> [!WARNING] 
 > É necessário o Java 8 para executar o binário do Allure Reports.
 
 > [!TIP]
