@@ -2,8 +2,6 @@
 
 Repositório do projeto de testes End-to-end (E2E) feitos com **Cypress** :green_heart: para o web app de demonstração: *Mark L - Gerenciador de Tarefas*.
 
-___
-
 ## IDE utilizada nesse projeto
 
 [VS Code](https://code.visualstudio.com/) versão `1.88.1`
