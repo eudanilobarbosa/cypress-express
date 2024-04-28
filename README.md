@@ -26,7 +26,6 @@ Você vai precisar dos seguintes sistemas instalados em seu computador:
 > Para a instalação do Git garantir que as opções "Git Bash Here" e "(NEW!) Add a Git Bash Profile to Windows Terminal" estejam marcadas :white_check_mark:.
 
 ## Instalação
-
 ### Após clonar o repositório, instalar as dependências da web app que estão na pasta `/apps/markL/`
 
 1. Pasta `api` - API do gerenciador de tarefas, execute o comando
