@@ -27,9 +27,9 @@ Você vai precisar dos seguintes sistemas instalados em seu computador:
 
 ## Instalação
 
-### Clonar o repositório
+### Após clonar o repositório, instalar as dependências da web app que estão na pasta `/apps/markL/`
 
-1. Instalar as dependências da web app que estão na pasta **/apps/markL/**, pasta **api** - API do gerenciador de tarefas, execute o comando
+1. Pasta `api` - API do gerenciador de tarefas, execute o comando
 ```
 npm i
 ```
@@ -44,7 +44,7 @@ npm run db:init
 npm run dev
 ```
 
-4. Pasta **web** - Interface gráfica do gerenciador de tarefas, execute o comando
+4. Pasta `web` - Interface gráfica do gerenciador de tarefas, execute o comando
 ```
 npm i
 ```
@@ -54,7 +54,8 @@ npm i
 npm run dev
 ```
 
-## Métodos - Requisições para a API
+### Métodos HTTP
+#### Requisições para a API REST
 
 <details>
 <summary> :purple_circle: GET /Task list </summary>
@@ -120,27 +121,11 @@ curl --request DELETE \
  </details>
 
 ## Como executar
-
-1. Instalar as dependências da web app que estão na pasta **/apps/markL/**, pasta **api** - API do gerenciador de tarefas, execute o comando
-```
-npm i
-```
-
-2. Para inicializar e criar o banco de dados SQLite da API, execute o comando
-```
-npm run db:init
-```
-
-3. Pasta **web** - Interface gráfica do gerenciador de tarefas, execute o comando
-```
-npm i
-```
-
 ### Testes
 
 Você pode executá-los tanto em modo interativo, como em modo _headless_.
 
-1. Instalar as dependências do Cypress que estão na pasta raiz **/**, execute o comando
+1. Instalar as dependências do Cypress que estão na pasta raiz `/`, execute o comando
 ```
 npm i
 ```
@@ -156,12 +141,12 @@ npx allure serve
 ```
 
 > [!WARNING] 
-> É necessário o Java 8 para executar o binário do Allure Reports.
+> É necessário o [Java 8](https://www.oracle.com/java/technologies/downloads/#license-lightbox) para executar o binário do Allure Reports.
 
 > [!TIP]
 > Execute os testes através do Lauchpad, modo interativo do Cypress, com o comando `npx cypress open`.
 
-# Funcionalidades Testadas
+## Funcionalidades Testadas
 [![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
 
 #### home
