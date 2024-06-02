@@ -57,7 +57,7 @@ npm run dev
 #### Requisições para a API REST
 
 <details>
-<summary> :purple_circle: GET /Task list </summary>
+<summary> :green_circle: GET /Task list </summary>
 	
 ```
 curl --request GET \
@@ -67,7 +67,7 @@ curl --request GET \
 </details>
 
 <details>
-<summary> :green_circle: POST /New task </summary>
+<summary> :yellow_circle: POST /New task </summary>
 
 ```
 curl --request POST \
@@ -82,7 +82,7 @@ curl --request POST \
 </details>
 
 <details>
-<summary> :yellow_circle: PUT /Update task </summary>
+<summary> :large_blue_circle: PUT /Update task </summary>
 
 ```
 curl --request PUT \
